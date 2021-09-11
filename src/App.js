@@ -36,11 +36,10 @@ export default function App() {
   }
 
   return (
-    <div
-      style={{ backgroundColor: "lightgreen", padding: "2rem" }}
-      className="App"
-    >
-      <h1 style={{ padding: "2rem 2rem" }}>Emoji Interpreter</h1>
+    <div style={{ backgroundColor: "black", padding: "2rem" }} className="App">
+      <h1 style={{ WebkitTextFillColor: "red", padding: "2rem 2rem" }}>
+        Emoji Interpreter
+      </h1>
 
       <input
         onChange={changeHandler}
